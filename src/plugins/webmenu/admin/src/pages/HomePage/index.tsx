@@ -4,7 +4,7 @@
  *
  */
 
-import React, { useState } from 'react';
+import React, { useState, createContext } from 'react';
 
 import {
   HeaderLayout,
@@ -19,9 +19,6 @@ import {
 import { Plus } from "@strapi/icons";
 import { Illo } from "../../components/Illo";
 
-import pluginId from '../../pluginId';
-
-
 import MenuCount from "../../components/MenuCount";
 import MenuModal from "../../components/MenuModal";
 import MenuTable from "../../components/MenuTable";
@@ -30,7 +27,6 @@ const HomePage = () => {
 
   const [menuData, setMenuData] = useState([] as string[]);
   const [showModal, setShowModal] = useState(false);
-
 
   async function addMenu(data: any) {
     // await webMenuRequests.addMenu(data);

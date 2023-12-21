@@ -26,4 +26,5 @@ RUN chown -R node:node /opt/app
 USER node
 RUN ["yarn", "build"]
 EXPOSE 1337
+EXPOSE 8000
 CMD ["yarn", "develop", "--watch-admin"]

@@ -4,7 +4,6 @@ services:
     container_name: strapi
     build:
       context: .
-      dockerfile: Dockerfile.dev
     image: strapi:latest
     restart: unless-stopped
     env_file: .env
@@ -23,12 +22,11 @@ services:
       - ./config:/opt/app/config
       - ./src:/opt/app/src
       - ./package.json:/opt/package.json
-      - ./yarn.lock:/opt/yarn.lock
+      - ./yarn.lock:/opt/app/yarn.lock
       - ./.env:/opt/app/.env
       - ./public/uploads:/opt/app/public/uploads
     ports:
       - "1337:1337"
-      - "8000:8000"
     networks:
       - strapi
     depends_on:

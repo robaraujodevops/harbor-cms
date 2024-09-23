@@ -22,6 +22,12 @@ export default {
         "api::page.page": ["slug"],
       },
       allowedLevels: 2,
+      gql: {
+        navigationItemRelated: ['InternalPage'],
+      },
     },
+  },  
+  seo: {
+    enabled: true,
   },
 };

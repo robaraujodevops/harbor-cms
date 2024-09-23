@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blocks_solutions",
+  "info": {
+    "displayName": "Solutions",
+    "icon": "command",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "required": true
+    },
+    "topHeader": {
+      "type": "string"
+    },
+    "bottomText": {
+      "type": "string"
+    },
+    "bottomTextLink": {
+      "type": "boolean",
+      "default": false
+    },
+    "bottomTextLinkLabel": {
+      "type": "string"
+    },
+    "bottomTextLinkUrl": {
+      "type": "string"
+    },
+    "solutionItem": {
+      "displayName": "Solution Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.solution-item"
+    }
+  }
+}

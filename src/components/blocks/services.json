@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_blocks_services",
+  "info": {
+    "displayName": "Services",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "servicesHeader": {
+      "type": "string"
+    },
+    "servicesTopHeader": {
+      "type": "string"
+    },
+    "servicesDescription": {
+      "type": "text"
+    },
+    "servicesButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button"
+    },
+    "serviceItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.service-item"
+    },
+    "servicesBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

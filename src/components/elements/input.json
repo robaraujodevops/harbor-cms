@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_elements_inputs",
+  "info": {
+    "displayName": "Input",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "inputPlaceholder": {
+      "type": "string"
+    },
+    "inputLabel": {
+      "type": "string",
+      "default": "null"
+    },
+    "inputName": {
+      "type": "string"
+    },
+    "inputType": {
+      "type": "enumeration",
+      "enum": [
+        "button",
+        "checkbox",
+        "color",
+        "date",
+        "datetime-local",
+        "email",
+        "file",
+        "hidden",
+        "image",
+        "month",
+        "number",
+        "password",
+        "radio",
+        "range",
+        "reset",
+        "search",
+        "submit",
+        "tel",
+        "text",
+        "textarea",
+        "time",
+        "url",
+        "week"
+      ]
+    }
+  }
+}

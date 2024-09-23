@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_blogs",
+  "info": {
+    "displayName": "Blog",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "blogHeader": {
+      "type": "string"
+    },
+    "blogTopHeader": {
+      "type": "string"
+    },
+    "blogApiDataUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

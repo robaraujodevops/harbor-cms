@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_elements_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "buttonType": {
+      "type": "enumeration",
+      "enum": [
+        "mainOne",
+        "mainTwo",
+        "linkOne"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "action": {
+      "type": "enumeration",
+      "enum": [
+        "post_mail_lead",
+        "page_anchor",
+        "page_link"
+      ]
+    }
+  }
+}

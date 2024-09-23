@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_ctas",
+  "info": {
+    "displayName": "Cta",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "ctaHeader": {
+      "type": "string"
+    },
+    "ctaSubHeader": {
+      "type": "text"
+    },
+    "ctaLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.button"
+    },
+    "ctaForm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.form"
+    }
+  }
+}

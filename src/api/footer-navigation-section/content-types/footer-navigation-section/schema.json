@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_navigation_sections",
+  "info": {
+    "singularName": "footer-navigation-section",
+    "pluralName": "footer-navigation-sections",
+    "displayName": "Footer Navigation Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "footerNavLink": {
+      "displayName": "Link",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    }
+  }
+}

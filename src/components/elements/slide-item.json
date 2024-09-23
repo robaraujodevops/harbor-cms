@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_shared_slide_items",
+  "info": {
+    "displayName": "Slide Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slideImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header": {
+      "type": "string"
+    },
+    "topHeader": {
+      "type": "string"
+    },
+    "subHeader": {
+      "type": "string"
+    },
+    "contentPosition": {
+      "type": "enumeration",
+      "enum": [
+        "align-v-h",
+        "c-slide-top-right",
+        "c-slide-top-left"
+      ]
+    },
+    "contentEffect": {
+      "type": "enumeration",
+      "enum": [
+        "fade_in_up_sd",
+        "fade_in_rtl",
+        "fade_in_down_sd",
+        "fade_in_ltr"
+      ]
+    },
+    "slideButtons": {
+      "displayName": "Slide Buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.button"
+    }
+  }
+}

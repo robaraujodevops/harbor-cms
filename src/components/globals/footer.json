@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_globals_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footerLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "footerCtaDescr": {
+      "type": "text",
+      "required": true
+    },
+    "footerInputMail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.input"
+    },
+    "footerSubmitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button"
+    },
+    "footerNavigationSections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::footer-navigation-section.footer-navigation-section"
+    },
+    "footerContacts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.footer-contacts"
+    },
+    "footerText": {
+      "type": "text"
+    }
+  }
+}

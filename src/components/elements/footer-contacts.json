@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_footer_contacts",
+  "info": {
+    "displayName": "footerContacts",
+    "icon": "phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footerContactFone": {
+      "type": "string"
+    },
+    "footerFacebookActive": {
+      "type": "boolean",
+      "default": false
+    },
+    "footerFacebookLink": {
+      "type": "string"
+    },
+    "footerWhatsappActive": {
+      "type": "boolean",
+      "default": false
+    },
+    "footerWhatsappLink": {
+      "type": "string"
+    },
+    "footerXActive": {
+      "type": "boolean",
+      "default": false
+    },
+    "footerXLink": {
+      "type": "string"
+    }
+  }
+}

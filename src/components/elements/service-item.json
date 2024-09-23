@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_elements_service_items",
+  "info": {
+    "displayName": "Service Item",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "serviceIcon": {
+      "type": "enumeration",
+      "enum": [
+        "icon-website",
+        "icon-statistic",
+        "icon-programming",
+        "icon-server",
+        "icon-cloud",
+        "icon-technician",
+        "icon-controls",
+        "icon-network"
+      ],
+      "required": true,
+      "default": "icon-website"
+    },
+    "serviceHeader": {
+      "type": "string",
+      "required": true
+    },
+    "serviceDescription": {
+      "type": "text",
+      "required": true
+    },
+    "serviceButton": {
+      "displayName": "Service Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button"
+    }
+  }
+}

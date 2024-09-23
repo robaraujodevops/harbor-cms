@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_headers",
+  "info": {
+    "displayName": "Header",
+    "icon": "gate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "navigationSlug": {
+      "type": "string",
+      "required": true,
+      "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "Português",
+        "English"
+      ],
+      "default": "Português"
+    },
+    "loginActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "searchActive": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
